@@ -12,7 +12,7 @@ jobs:
   cypress-test:
     name: Run on Chrome 87
     runs-on: ubuntu-18.04
-    container: docker pull cypress/browsers:node12.18.3-chrome87-ff82
+    container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - uses: actions/checkout@v2
         
