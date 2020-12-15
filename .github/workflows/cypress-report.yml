@@ -16,13 +16,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
-      - name: Install cypress and verify
+      - name: Install- and verify Cypress
         run: |
           npm ci
           $(npm bin)/cypress verify
         
       - name: Run Cypress tests
-        run: npm run test:chrome
+        run:  npx cypress run --browser chrome
         continue-on-error: false
         
       - name: Copy test execution videos and screenshots
