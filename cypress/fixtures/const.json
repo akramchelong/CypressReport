@@ -1,0 +1,10 @@
+{
+    "endpoint": "https://localhost:50120/v1",
+    "client_endpoint": "https://localhost:50120/v1/clients",
+    "authorization_endpoint": "https://localhost:50120/v1/authorize?",
+    "authorization_handle_endpoint": "https://localhost:50120/v1/authorize/handle",
+    "token_endpoint": "https://localhost:50120/v1/token",
+    "keys_endpoint": "https://localhost:50120/v1/keys",
+    "metadata_endpoint": "https://localhost:50120/v1/.well-known/openid-configuration",
+    "static_endpoint": "https://localhost:50120/static"
+}
