@@ -1,0 +1,8 @@
+{
+    "authorizationUri": "https://localhost:50120/oauth2/auth",
+    "redirectUri": "https://oidcdebugger.com/debug",
+    "scopes": "openid",
+
+    "userName": "Harry",
+    "password": "Testdemo2avhsdev"
+}
