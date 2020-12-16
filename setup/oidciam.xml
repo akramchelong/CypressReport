@@ -1,0 +1,9 @@
+<service>
+  <id>OIDC-IAM</id>
+  <name>OIDC-IAM</name>
+  <description>OpenID Connect IAM provider.</description>
+  <env name="LOG_LEVEL" value="debug"/>
+  <executable>oidciam_main.exe</executable>
+  <arguments></arguments>
+  <log mode="roll"></log>
+</service>

@@ -1,0 +1,27 @@
+{
+    "id": "OIDCIAM",
+    "name": "OpenID Connect IAM provider",
+    "version": "<VERSION>",
+    "commands": {
+        "install": {
+            "executable": "oidciam.exe",
+            "arguments": "install"
+        },
+        "uninstall": {
+            "executable": "oidciam.exe",
+            "arguments": "uninstall"
+        },
+        "start": {
+            "executable": "oidciam.exe",
+            "arguments": "start"
+        },
+        "stop": {
+            "executable": "oidciam.exe",
+            "arguments": "stop"
+        },
+        "getStatus": {
+            "executable": "powershell.exe",
+            "arguments": "-ExecutionPolicy Bypass .\\status.ps1"
+        }
+    }
+}
